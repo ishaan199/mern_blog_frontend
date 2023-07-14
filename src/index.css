@@ -1,13 +1,138 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.nav-bar {
+  padding:8px;
+  border:1px solid black;
+  background-color: black;
+}
+.nav-title{
+  color: beige;
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.body-container{
+  height: 60rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+}
+
+.card-body-container1{
+  height:60rem;
+  width:70rem;
+  background-color: blueviolet;
+  overflow: auto;
+}
+
+.profile-blogs{
+  overflow: auto;
+}
+
+
+
+
+.sideWays{
+  height: 60rem;
+  width: 25rem;
+  background-color: bisque;
+}
+
+.body-card-container{
+justify-content: center;
+justify-items: start;
+display: flex;
+flex-wrap: wrap;
+align-items: start;
+}
+
+.side-container{
+  margin-top:3px;
+  padding-top:5px;
+  margin-left:5px;
+  height:10rem;
+  width:15rem;
+  background-color: yellow;
+}
+
+.side-buttons{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px;
+}
+
+.buttons{
+  padding: 3px;
+  margin:4px;
+  border: none;
+
+}
+
+.card-container{
+  border-bottom: 1px solid red;
+}
+
+.profile-container{
+  height: 60rem;
+  width: 30rem;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+}
+.profile-details{
+  padding:5px;
+}
+.profile-image-container{
+  padding: 5px;
+}
+
+
+.write-container{
+  height: 50rem;
+  width: 50rem;
+  background-color: brown;
+}
+.title-textarea{
+
+}
+.description-textarea{
+
+}
+.title{
+  background-color: aqua;
+}
+.des{
+  background-color: aqua;
+}
+
+/* .login-container{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.login-component-button{
+  padding: 5px;
+  margin:5px;
+  
+}
+
+.profile-main{
+  display: flex;
+  padding: auto;
+}
+.inner-container{
+  padding: 10px;
+  border-bottom: 1px solid red;
+  overflow: auto;
+}
+
+.profile-card-container{
+height:6rem;
+width: 40rem;
+background-color: aqua; 
+
+}
+
+.edit-container{
+  display: flex;
+  flex-direction: column;
 }
